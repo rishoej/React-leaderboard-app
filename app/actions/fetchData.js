@@ -1,7 +1,7 @@
 const fetchData = (api) => {
   return fetch(api)
     .then(response => {
-      return response.json();;
+      return response.json();
     })
     .catch(error => {
       throw error;
